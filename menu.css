@@ -1,0 +1,26 @@
+#con{
+    width: 80%;
+    height: 900px;
+    margin-left: 200px;
+  
+
+}
+.con1,.con2,.con3,.con4{
+ display: inline-block;
+width: 250px;
+height: 450px;
+margin-top: 100px;
+margin-left: 10px;
+padding: 10px;
+
+
+}
+
+img{
+    width: 250px;
+}
+h1{
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 20px;
+}
