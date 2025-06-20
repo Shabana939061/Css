@@ -24,16 +24,6 @@ position: fixed;
 i{
    font-size: 30px;
 }
-
-img{
-  margin: 1px;
-    width: 11%;
-    position: absolute;
-    left: 15px;
-    margin-left: 20px;
-   border-radius: 70%; 
-   
-}
 h3{ display: inline-block;
     font-size: 15px;
     color: white;
