@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+.continer{
+ width: 500px;
+ height: 500px;
+ display: grid;
+ grid-template-columns: repeat(3 1fr);
+ grid-template-rows: 250px 250px;
+color: red;
+ grid-template-areas:
+ 'A B C''D E F' ;
+ gap: 10px;
+ margin-top: 100px;
+ margin-left: 200px;
+}
+.con{
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    padding: 20px;
+}
+.A{
+  grid-area: A;
+align-self: start;
+justify-self: start;}
+.B{
+    grid-area: B;
+align-self: center;
+justify-self: center;
+}
+.C{
+    grid-area: C;
+    align-self: end;
+justify-self: end;
+}
+.D{
+      grid-area: D;
+align-self: end;
+justify-self: start;  
+}
+.E{
+        grid-area: E;
+align-self: center;
+justify-self: center;
+}
+.F{
+grid-area: F;
+/*place-items: end end;*/
+ align-self: start;
+justify-self: end;}
